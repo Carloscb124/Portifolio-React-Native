@@ -1,20 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
-import { StyleSheet, Text, View } from 'react-native';
+import { createStackNavigator, CardStyleInterpolators } from "@react-navigation/stack";
+import { NavigationContainer } from "@react-navigation/native";
+import MainScreen from "./src/Screens/MainScreen";
+import SkillsScreen from "./src/Screens/SkillScreen";
+
+const Stack = createStackNavigator();
 
 export default function App() {
   return (
-    <View style={styles.container}>
-      <Text>Open up App.tsx to start working on your app!</Text>
-      <StatusBar style="auto" />
-    </View>
+    <NavigationContainer>
+      <Stack.Navigator
+        screenOptions={{
+          headerStyle: { backgroundColor: "#f25f4c" },
+          headerTintColor: "#fffffe",
+          cardStyle: { backgroundColor: "#0f0e17" },
+          cardStyleInterpolator: CardStyleInterpolators.forModalPresentationIOS 
+        }}
+      >
+        <Stack.Screen name="Main" component={MainScreen} options={{ title: "Perfil" }} />
+        <Stack.Screen name="Skills" component={SkillsScreen} options={{ title: "Habilidades" }} />
+      </Stack.Navigator>
+    </NavigationContainer>
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});
