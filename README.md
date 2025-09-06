@@ -18,6 +18,16 @@ Este projeto é um **Portfólio Mobile** desenvolvido em **React Native com Type
   * Cards de habilidades com ícones e barra de progresso
   * Animação suave na entrada dos cards
 
+## 📱 Capturas de Tela
+
+<div align="center">
+  
+| Perfil | Habilidades |
+|--------------|------------|
+| <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> |
+
+</div>
+
 ## 🎨 Tecnologias Utilizadas
 
 * [React Native](https://reactnative.dev/)
