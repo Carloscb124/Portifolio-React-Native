@@ -2,6 +2,7 @@ import { createStackNavigator, CardStyleInterpolators } from "@react-navigation/
 import { NavigationContainer } from "@react-navigation/native";
 import MainScreen from "./src/Screens/MainScreen";
 import SkillsScreen from "./src/Screens/SkillScreen";
+import ResumeScreen from "./src/Screens/ResumeScreen";
 
 const Stack = createStackNavigator();
 
@@ -18,6 +19,7 @@ export default function App() {
       >
         <Stack.Screen name="Main" component={MainScreen} options={{ title: "Perfil" }} />
         <Stack.Screen name="Skills" component={SkillsScreen} options={{ title: "Habilidades" }} />
+       <Stack.Screen name="Resume" component={ResumeScreen} options={{ title: "Currículo" }} />
       </Stack.Navigator>
     </NavigationContainer>
   );

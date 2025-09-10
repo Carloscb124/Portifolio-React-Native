@@ -32,6 +32,11 @@ export default function MainScreen({ navigation }: any) {
         <Text style={styles.buttonText}>Ver Habilidades</Text>
         <Ionicons name="arrow-down-outline" size={20} color="#fff" style={{ marginLeft: 8 }} />
       </TouchableOpacity>
+
+      <TouchableOpacity style={styles.button} onPress={() => navigation.navigate("Resume")}>
+        <Text style={styles.buttonText}>Ver Currículo</Text>
+      </TouchableOpacity>
+
     </View>
   );
 }

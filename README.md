@@ -24,7 +24,7 @@ Este projeto é um **Portfólio Mobile** desenvolvido em **React Native com Type
   
 | Perfil | Habilidades |
 |--------------|------------|
-| <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> |
+| <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> | <img src="assets/image3.png" width="250" />
 
 </div>
 
