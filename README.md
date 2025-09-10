@@ -20,13 +20,16 @@ Este projeto é um **Portfólio Mobile** desenvolvido em **React Native com Type
 
 ## 📱 Capturas de Tela
 
+## 📱 Capturas de Tela
+
 <div align="center">
   
-| Perfil | Habilidades | Curriculo |
-|--------------|------------|
-| <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> | <img src="assets/image3.png" width="250" />
+| Perfil | Habilidades | Currículo |
+|--------|-------------|-----------|
+| <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> | <img src="assets/image3.png" width="250" /> |
 
 </div>
+
 
 ## 🎨 Tecnologias Utilizadas
 
