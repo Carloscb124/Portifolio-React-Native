@@ -5,21 +5,21 @@ Este projeto é um **Portfólio Mobile** desenvolvido em **React Native com Type
 ## 🚀 Funcionalidades
 
 * **Main Screen (Perfil)**
-
   * Foto do usuário
   * Nome em destaque
   * Links clicáveis: GitHub, LinkedIn e Email
   * Navegação para a tela de Skills
+  * Botão para visualizar o currículo em PDF sem sair do app
 
 * **Skills Screen (Habilidades)**
-
   * Foto e nome do usuário
   * Subtítulo "Skills"
   * Cards de habilidades com ícones e barra de progresso
   * Animação suave na entrada dos cards
 
-## 📱 Capturas de Tela
-
+* **Resume Screen (Curriculo)**
+  * Visualização do Curriculo
+    
 ## 📱 Capturas de Tela
 
 <div align="center">
@@ -29,6 +29,12 @@ Este projeto é um **Portfólio Mobile** desenvolvido em **React Native com Type
 | <img src="assets/image.png" width="250" /> | <img src="assets/image2.png" width="250" /> | <img src="assets/image3.png" width="250" /> |
 
 </div>
+
+## 📲 Download do APK
+
+Você pode baixar e instalar o app no Android por aqui:
+
+[⬇️ Baixar APK](https://expo.dev/accounts/carloscb124/projects/Portifolio-React-Native/builds/16372e42-0d8d-4063-880b-e73e2c611445)
 
 
 ## 🎨 Tecnologias Utilizadas
@@ -78,6 +84,14 @@ npx expo start
 ```
 
 5. Abra no celular usando o app **Expo Go** ou em um emulador Android/iOS.
+
+## 📦 Build do aplicativo
+
+Para gerar o APK e instalar no celular:
+
+```bash
+npx eas build -p android --profile preview
+```
 
 ## 💡 Melhorias Futuras
 
